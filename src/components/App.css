@@ -1,0 +1,17 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60rem;
+	padding: 4rem;
+	background: rgba(0,0,0, .5);
+	box-sizing: border-box;
+	box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,.5);
+	border-radius: 1rem;
+}
